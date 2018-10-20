@@ -1,0 +1,267 @@
+#products,
+#one_product,
+#orders_user {
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+#regist,
+#login,
+#change_product,
+#add_product {
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#regist form,
+#login form,
+#change_product form,
+#add_product form
+ {
+    padding-bottom: 20px;
+}
+
+#regist input,
+#login input {
+    margin: 10px auto;
+    width: 500px;
+    height: 25px;
+}
+
+#products {
+    padding: 20px;
+}
+
+#one_product {
+    padding: 0 20px;
+}
+
+#one_product .form {
+    padding: 0 20px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+#one_product input,
+#one_product button {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+#products a,
+#orders_user a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#products .form {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+input[type="number"] {
+    width: 80px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.view_product,
+.one_product_order {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0 20px;
+}
+
+#products img,
+#orders_user img {
+    height: 150px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.images img {
+    height: 450px;
+    margin: 0 40px;
+}
+
+.description {
+    width: 150px;
+}
+
+.descrip {
+    width: 100%;
+}
+
+.my_img {
+    width: 150px;
+    height: auto !important;
+}
+
+.form_delete {
+    width: 150px !important;
+}
+
+.my_form input,
+button {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my_form input {
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.my_form input,
+button {
+    width: 125px;
+}
+
+.regist {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.invisible {
+    display: none;
+}
+
+.all_cost {
+    width: 100%;
+    text-align: left;
+}
+
+.one_order {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#orders_user a {
+    width: 100%!important;
+}
+
+.one_product_order {
+    box-sizing: border-box;
+    width: auto!important;
+}
+
+#orders_user h4,
+#orders_user h3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#orders_user {
+    padding: 10px;
+}
+
+.cancel_order {
+    margin-bottom: 10px;
+}
+
+.cancel {
+    color: red;
+}
+
+#change_product form,
+#add_product form {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#change_product .form {
+    border: 1px solid black;
+    margin: 25px;
+}
+
+#add_product input,
+#add_product button {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: left;
+}
+
+#change_product input, 
+#change_product button {
+    width: 50%;
+    height: 25px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: left;
+}
+
+#add_product textarea {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#change_product textarea {
+    width: 50%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#change_product label {
+    width: 20%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+}
