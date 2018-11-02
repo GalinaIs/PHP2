@@ -1,0 +1,21 @@
+{% block content %}
+{% if model %}
+    <h2>Подробное описание товара: </h2>
+    <div id="one_product">
+        <h2>{{ model.name }}</h2>
+        <div class="images">
+            {% for image in images %}
+            <img src="/image/products/full/{{ image }}" />
+            {% endfor %}
+        </div>
+        <p class="descrip">{{ model.full_description }}</p>
+        <h2>Цена: {{ model.price }} руб.</h2>
+        <div class="form">
+            <input class="input_qty" type="number" min="1" max="100" value="1" name="count" />
+            <button name="id_product" data-id="{{ model.id }}" data-action="add">Добавить в корзину</button>
+        </div>
+    </div>
+{% else %}
+    <h2>Запрашиваемый товар не найден!</h2>
+{% endif %}
+{% endblock %}

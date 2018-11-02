@@ -1,0 +1,19 @@
+{
+    "name": "xxx/php2",
+    "authors": [
+        {
+            "name": "Galina Is",
+            "email": "denis@isyanov.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "2.0",
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    },
+    "description": ""
+}
